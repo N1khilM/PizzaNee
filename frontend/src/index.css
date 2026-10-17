@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --tomato: #b74327;
+  --tomato-dark: #8d321c;
+  --tomato-light: #f7e4dc;
+  --cream: #fff8ed;
+  --cream-deep: #f7eddf;
+  --ink: #29231f;
+  --muted: #777069;
+  --line: #e9ded1;
+  --green: #28764b;
+  --radius-lg: 22px;
+  --shadow: 0 16px 48px rgba(78, 48, 25, .08);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+body { margin: 0; color: var(--ink); background: #fffdf9; font-family: 'DM Sans', sans-serif; -webkit-font-smoothing: antialiased; }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .52; }
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+::selection { color: #fff; background: var(--tomato); }
+:focus-visible { outline: 3px solid #edaa45; outline-offset: 3px; }

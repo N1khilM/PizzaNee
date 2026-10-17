@@ -1,0 +1,9 @@
+{
+  "short_name": "PizzaNee",
+  "name": "PizzaNee — Your slice. Your rules.",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#b74327",
+  "background_color": "#fffaf4"
+}
